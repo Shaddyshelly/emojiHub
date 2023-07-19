@@ -212,19 +212,9 @@
 
     div = document.getElementById('emojis')
     let data = ""
-    l = []
     function myDisplay(y) {
       data = JSON.parse(y)
-      for (let i = 0; i < data.length; i++) {
-        category = data[i]['category']
-        if (l.includes(category)) {
 
-        }
-        else {
-          l.push(category)
-        }
-      }
-      console.log(l)
     }
 
     $(".category").click(function () {
