@@ -1323,4 +1323,5 @@ section {
   max-width: 1440px;
   overflow-wrap: anywhere;
   background: aliceblue;
+  letter-spacing: 1rem;
 }
